@@ -33,7 +33,7 @@ namespace PIThreading
                 thrd.Add(th);
 
                 th.Start();
-                Thread.Sleep(30);
+                Thread.Sleep(16);
             }
 
             foreach (Thread items in thrd)

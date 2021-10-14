@@ -32,7 +32,7 @@ namespace PIThreading
                 x = ran.NextDouble();
                 y = ran.NextDouble();
 
-                if(Math.Sqrt((x*x) + (y*y)) < 0.5)
+                if(Math.Sqrt((x*x) + (y*y)) <= 1)
                 {
                     circleDarts++;
                 }
